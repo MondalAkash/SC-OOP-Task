@@ -25,12 +25,15 @@ public class Main {
                 System.out.println("I found Nemo at: "+(i+1));
                 break;
             }
+
         }
+
     }
     public static void main(String[] args) {
         findNemo("I am finding Nemo !");
         findNemo("Nemo is me");
         findNemo("I Nemo am");
+        //findNemo("I am");
         int[] arr = {61,20,10,77,30};
         evenOdd(arr);
 
